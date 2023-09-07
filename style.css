@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+main .pepsi .dam {
+    width: 1000px;
+    height: 1100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 990px;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+    top: 660px;
+    left: 5px;
+}
+
+
+
+.review-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.box {
+    background: #f9f9f9;
+    padding: 25px 35px;
+    height: 50v;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    text-align: center;
+    position: relative;
+    top: 590px;
+}
+
+.img img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50% 50%;
+}
+.Visit h1{
+    width: 200px;
+    background-color: rgb(4, 132, 211);
+    position: relative;
+    bottom: 950px;
+    left: 400px;
+}
+.Visit h3{
+    width: 400px;
+    background-color: rgb(2, 91, 255);
+    position: relative;
+    bottom: 940px;
+    left: 330px;
+}
+.main{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(58, 162, 253);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 400px;
+    left: 270px;
+}
+.img-10 img{
+    width: 150px;
+    height: 200px;
+
+}
+.main-p h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
